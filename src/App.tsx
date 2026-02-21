@@ -270,7 +270,7 @@ export default function App() {
                     </div>
                     <div>
                       <p className="font-bold">Email us</p>
-                      <p className="text-slate-600">hello@aspire-design.academy</p>
+                      <p className="text-slate-600">hello@ad-kh.com</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -279,7 +279,7 @@ export default function App() {
                     </div>
                     <div>
                       <p className="font-bold">Call us</p>
-                      <p className="text-slate-600">+60 10-408 7208</p>
+                      <p className="text-slate-600">096 889 8669</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -288,7 +288,7 @@ export default function App() {
                     </div>
                     <div>
                       <p className="font-bold">Visit us</p>
-                      <p className="text-slate-600">Flagship City Campus, Penang, Malaysia</p>
+                      <p className="text-slate-600">House No. 2364z+2372z, Street 46, Sangkat Srah Chak, Khan Daun Penh, Phnom Penh</p>
                     </div>
                   </div>
                 </div>
