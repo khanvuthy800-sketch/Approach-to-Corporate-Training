@@ -113,9 +113,6 @@ export default function App() {
                     Get a Proposal
                     <ArrowRight className="h-5 w-5" />
                   </button>
-                  <button className="rounded-full border border-white/20 bg-white/5 px-8 py-4 font-bold text-white transition-colors hover:bg-white/10 active:scale-95">
-                    View Programs
-                  </button>
                 </div>
               </motion.div>
               <motion.div
@@ -217,10 +214,7 @@ export default function App() {
                   Equip your team with industry-standard tools and frameworks to maintain your company’s competitive advantages in the digital age.
                 </p>
               </div>
-              <button className="group flex items-center gap-2 rounded-full bg-white px-8 py-4 font-bold text-black transition-all hover:gap-4 active:scale-95">
-                Explore All Programs
-                <ArrowRight className="h-5 w-5" />
-              </button>
+
             </div>
 
             <div className="grid gap-6 md:grid-cols-3">
