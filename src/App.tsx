@@ -4,12 +4,12 @@
  */
 
 import { motion } from "motion/react";
-import { 
-  ChevronRight, 
-  Layout, 
-  Cpu, 
-  Users, 
-  CheckCircle2, 
+import {
+  ChevronRight,
+  Layout,
+  Cpu,
+  Users,
+  CheckCircle2,
   ArrowRight,
   Mail,
   Phone,
@@ -57,7 +57,7 @@ export default function App() {
 
         {/* Mobile Nav */}
         {isMenuOpen && (
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             className="absolute top-20 left-0 right-0 border-b border-slate-100 bg-white p-6 md:hidden"
@@ -81,9 +81,9 @@ export default function App() {
         <section className="relative overflow-hidden border-b border-slate-100 py-24 lg:py-40">
           {/* Background Image with Filter */}
           <div className="absolute inset-0 z-0">
-            <img 
-              src="https://picsum.photos/seed/architecture-office/1920/1080" 
-              alt="Background" 
+            <img
+              src="https://picsum.photos/seed/architecture-office/1920/1080"
+              alt="Background"
               className="h-full w-full object-cover"
               referrerPolicy="no-referrer"
             />
@@ -124,8 +124,8 @@ export default function App() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 className="relative hidden aspect-square lg:aspect-auto lg:block lg:h-[500px]"
               >
-                <img 
-                  src="https://picsum.photos/seed/arch-training/1000/1000" 
+                <img
+                  src="https://picsum.photos/seed/arch-training/1000/1000"
                   alt="Corporate Training"
                   className="h-full w-full rounded-3xl object-cover shadow-2xl ring-1 ring-white/20"
                   referrerPolicy="no-referrer"
@@ -133,10 +133,10 @@ export default function App() {
                 <div className="absolute -bottom-6 -left-6 rounded-2xl bg-white p-6 shadow-xl md:p-8">
                   <div className="flex items-center gap-4">
                     <div className="flex -space-x-3">
-                      {[1,2,3,4].map(i => (
-                        <img 
+                      {[1, 2, 3, 4].map(i => (
+                        <img
                           key={i}
-                          src={`https://picsum.photos/seed/user${i}/100/100`} 
+                          src={`https://picsum.photos/seed/user${i}/100/100`}
                           className="h-10 w-10 rounded-full border-2 border-white object-cover"
                           referrerPolicy="no-referrer"
                         />
@@ -259,39 +259,6 @@ export default function App() {
           </div>
         </section>
 
-        {/* Hiring Partner Section */}
-        <section className="py-24 lg:py-32">
-          <div className="mx-auto max-w-7xl px-6">
-            <div className="relative overflow-hidden rounded-[2.5rem] bg-slate-50 px-8 py-20 md:px-20">
-              <div className="relative z-10 grid gap-12 lg:grid-cols-2 lg:items-center">
-                <div>
-                  <h2 className="mb-6 text-4xl font-bold tracking-tight md:text-5xl">Become a Hiring Partner</h2>
-                  <p className="mb-10 text-lg leading-relaxed text-slate-600">
-                    Build your architecture design talent pipeline today by partnering with us to access skilled, job-ready professionals. Recruitment of new hires is often difficult, long, and expensive. We help you map out achievable plans.
-                  </p>
-                  <button className="rounded-full bg-black px-10 py-4 font-bold text-white transition-transform hover:scale-105 active:scale-95">
-                    Partner With Us
-                  </button>
-                </div>
-                <div className="grid grid-cols-2 gap-4">
-                  {[1,2,3,4].map(i => (
-                    <div key={i} className="aspect-square overflow-hidden rounded-3xl">
-                      <img 
-                        src={`https://picsum.photos/seed/partner${i}/600/600`} 
-                        className="h-full w-full object-cover grayscale transition-all hover:grayscale-0"
-                        referrerPolicy="no-referrer"
-                      />
-                    </div>
-                  ))}
-                </div>
-              </div>
-              {/* Decorative elements */}
-              <div className="absolute -right-20 -top-20 h-64 w-64 rounded-full bg-slate-200/50 blur-3xl" />
-              <div className="absolute -bottom-20 -left-20 h-64 w-64 rounded-full bg-slate-200/50 blur-3xl" />
-            </div>
-          </div>
-        </section>
-
         {/* Contact Form Section */}
         <section className="border-t border-slate-100 py-24 lg:py-32">
           <div className="mx-auto max-w-7xl px-6">
@@ -301,7 +268,7 @@ export default function App() {
                 <p className="mb-12 text-lg text-slate-600">
                   Fill out the form below and our team will get back to you within 24 hours to discuss your training needs.
                 </p>
-                
+
                 <div className="space-y-8">
                   <div className="flex items-start gap-4">
                     <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-slate-50">
